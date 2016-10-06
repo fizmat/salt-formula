@@ -1,3 +1,5 @@
+include: [salt.salt-ssh-fix]
+
 {% set processed_gitdirs = [] %}
 {% set processed_basedirs = [] %}
 

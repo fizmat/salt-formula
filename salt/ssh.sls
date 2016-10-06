@@ -1,3 +1,5 @@
+include: [salt.salt-ssh-fix]
+
 {% from "salt/map.jinja" import salt_settings with context %}
 
 {% if salt_settings.install_packages %}

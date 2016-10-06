@@ -1,3 +1,5 @@
+include: [salt.salt-ssh-fix]
+
 {% from "salt/map.jinja" import salt_settings with context %}
 
 {% set cloudmaps = salt['pillar.get']('salt:cloud:maps', {}) -%}
